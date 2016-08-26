@@ -1,4 +1,16 @@
 body {
-    width: 320px;
+    width: 220px;
 }
 
+.button {
+    background-color: #4C4c4c;
+    border: none;
+    color: white;
+    padding: 2px 2px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 13px;
+    margin: 2px 2px;
+    cursor: pointer;
+}

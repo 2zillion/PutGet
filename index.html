@@ -9,18 +9,23 @@
 
 <body ng-controller='todoCtrl'>
 
-    <table>
-        <tr>
-            <td><input type='text' id='new-todo' ng-model='newContent' class="form-control" placeholder="Item..." /></td>
-            <td><button ng-click="add()">Add</button></td>
-        </tr>
-        <tr>
-            <td><input type='text' id='new-desc' ng-model='newDescription' class="form-control" placeholder="Description..."
-                /></td>
-            <td><button ng-click="find()">Find</button></td>
-        </tr>
-    </table>
-
+    <div>
+        <input type='text' id='new-todo' ng-model='newContent' placeholder="Item..." />
+        <button ng-click="add()" class="button">Add</button>
+        <br>
+        <input type='text' id='new-desc' ng-model='newDescription' placeholder="Description..." />
+        <button ng-click="find()" class="button">Find</button>
+        <!--<table>
+            <tr>
+                <td><input type='text' id='new-todo' ng-model='newContent' placeholder="Item..." />
+                <button ng-click="add()" class="button">Add</button></td>
+            </tr>
+            <tr>
+                <td><input type='text' id='new-desc' ng-model='newDescription' placeholder="Description..." />
+                <button ng-click="find()" class="button">Find</button></td>
+            </tr>
+        </table>-->
+    </div>
     <script type="text/javascript" src="lib/jquery/jquery-2.1.3.min.js"></script>
     <script type="text/javascript" src="lib/angular/angular.js"></script>
     <script type="text/javascript" src="lib/bootstrap/js/bootstrap.min.js"></script>
